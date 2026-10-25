@@ -98,6 +98,32 @@ section:not(.hero):not(.latest):not(.watch) .btn:not(.btn-primary):not(.btn-suns
 .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .caption{text-align:center;color:var(--dust);margin:.8rem 0 0;font-size:.95rem}
 
+/* weird side of music */
+.weird{background:linear-gradient(180deg,#efe2c8,var(--sand));border-top:4px solid var(--gold)}
+.weird .eyebrow{color:var(--sunset)}
+.weird-intro{font-size:1.15rem;color:var(--muted);max-width:60ch;margin:0 0 1.8rem}
+.eps{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr))}
+.ep{display:flex;gap:1rem;background:#fff;border:1px solid #eadcc4;border-radius:var(--r);box-shadow:0 4px 14px rgba(90,55,32,.14);overflow:hidden;padding:.8rem}
+.ep-media{position:relative;flex:0 0 38%;max-width:200px;aspect-ratio:9/16;border-radius:10px;overflow:hidden;background:#1f140d;display:block}
+.ep-media img{width:100%;height:100%;object-fit:cover}
+.ep-media iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.play{position:absolute;left:50%;top:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:rgba(217,98,43,.92);box-shadow:0 4px 14px rgba(0,0,0,.45);transition:transform .15s}
+.play::after{content:"";position:absolute;left:23px;top:18px;border-style:solid;border-width:11px 0 11px 18px;border-color:transparent transparent transparent #fff}
+.ep-media:hover .play{transform:scale(1.08)}
+.ep-body{display:flex;flex-direction:column;flex:1;min-width:0}
+.ep-num{font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;font-weight:700;color:var(--saddle);margin:.2rem 0 .4rem}
+.ep-num .era{color:var(--sunset)}
+.ep h3{font-size:1.3rem;color:var(--ink);margin:0 0 .5rem}
+.ep-body p:not(.ep-num):not(.links){font-size:.95rem;margin:0 0 .9rem}
+.ep.playing{flex-direction:column;align-items:center}
+.ep.playing .ep-media{flex:none;width:min(100%,320px);max-width:none}
+@media (max-width:520px){
+  .ep{gap:.75rem;padding:.65rem}
+  .ep-media{flex-basis:40%}
+  .ep h3{font-size:1.08rem}
+  .ep-body p:not(.ep-num):not(.links){font-size:.88rem}
+}
+
 /* contact */
 .contact{background:var(--cream)}
 .contact .btn{font-size:1.1rem;word-break:break-all}
@@ -126,4 +152,5 @@ section:not(.hero):not(.latest):not(.watch) .btn:not(.btn-primary):not(.btn-suns
   .links a{font-size:.8rem;padding:.3rem .6rem}
   section{padding:3.5rem 0}
 }
+@media (max-width:430px){.nav ul{gap:.55rem}.nav ul a{font-size:.8rem}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}

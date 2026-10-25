@@ -58,6 +58,7 @@
       <li><a href="#music">Music</a></li>
       <li><a href="#radio">Radio</a></li>
       <li><a href="#watch">Watch</a></li>
+      <li><a href="#weird-side">Weird Side</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -263,6 +264,63 @@
     <div class="btns center"><a class="btn btn-primary" href="https://youtube.com/@sandeehawkmusic" target="_blank" rel="noopener">More on the YouTube channel</a></div>
   </div>
 </section>
+
+<section class="weird" id="weird-side" aria-labelledby="weird-h">
+  <div class="wrap">
+    <p class="eyebrow">Video series</p>
+    <h2 id="weird-h">The Weird Side of Music</h2>
+    <p class="weird-intro">Short videos about the strangest stories in music history, from ancient clay tablets to modern-day oddities.</p>
+
+    <!-- EPISODES: newest first. To add one, copy an <article class="ep"> block, paste it at the TOP of this list, and edit it.
+         See /workspace/weird-side-of-music/WEBSITE_SYNC.md for the steps. -->
+    <div class="eps">
+
+      <!-- EP 2 -->
+      <article class="ep" data-ep="2">
+        <a class="ep-media" href="https://www.youtube.com/shorts/2k3o8IUyQr8" data-yt="2k3o8IUyQr8" target="_blank" rel="noopener" aria-label="Play The Dancing Plague of 1518 on YouTube">
+          <img src="images/weird-side-ep02-dancing-plague-1518.jpg" width="360" height="640" loading="lazy" alt="Thumbnail: a woodcut-style crowd dancing in a medieval Strasbourg street under the cathedral spire">
+          <span class="play" aria-hidden="true"></span>
+        </a>
+        <div class="ep-body">
+          <p class="ep-num">Episode 2 &middot; <span class="era">1518</span></p>
+          <h3>The Dancing Plague of 1518</h3>
+          <p>In the summer of 1518, people in Strasbourg started dancing and couldn&rsquo;t stop. The city&rsquo;s &ldquo;cure&rdquo;? Hire musicians, build a stage, and keep them dancing. Historians still argue about why it happened.</p>
+          <p class="links"><a href="https://www.youtube.com/shorts/2k3o8IUyQr8" target="_blank" rel="noopener">YouTube Short</a><a href="https://www.facebook.com/reel/1979372586355388/" target="_blank" rel="noopener">Facebook Reel</a></p>
+        </div>
+      </article>
+
+      <!-- EP 1 -->
+      <article class="ep" data-ep="1">
+        <a class="ep-media" href="https://www.youtube.com/shorts/gToN-dKq_b4" data-yt="gToN-dKq_b4" target="_blank" rel="noopener" aria-label="Play The Oldest Song on YouTube">
+          <img src="images/weird-side-ep01-oldest-song.jpg" width="360" height="640" loading="lazy" alt="Thumbnail: a glowing clay tablet and an ancient lyre, titled The Oldest Song">
+          <span class="play" aria-hidden="true"></span>
+        </a>
+        <div class="ep-body">
+          <p class="ep-num">Episode 1 &middot; <span class="era">c. 1400 BC</span></p>
+          <h3>The Oldest Song: Hurrian Hymn No.&nbsp;6</h3>
+          <p>About 3,400 years ago, someone in the city of Ugarit (in modern Syria) pressed a hymn to the goddess Nikkal into clay, along with instructions for a singer and a nine-stringed lyre. Nobody agrees how to read the notation, so every reconstruction you hear today is a different guess.</p>
+          <p class="links"><a href="https://www.youtube.com/shorts/gToN-dKq_b4" target="_blank" rel="noopener">YouTube Short</a><a href="https://www.facebook.com/reel/1630755218502186/" target="_blank" rel="noopener">Facebook Reel</a></p>
+        </div>
+      </article>
+
+    </div>
+    <div class="btns center"><a class="btn btn-sunset" href="https://youtube.com/@sandeehawkmusic/shorts" target="_blank" rel="noopener">All episodes on YouTube</a></div>
+  </div>
+</section>
+<script>
+document.querySelectorAll('.ep-media[data-yt]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    e.preventDefault();
+    var f=document.createElement('iframe');
+    f.src='https://www.youtube-nocookie.com/embed/'+a.dataset.yt+'?autoplay=1&rel=0';
+    f.title=a.getAttribute('aria-label').replace(/^Play /,'').replace(/ on YouTube$/,'');
+    f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    f.referrerPolicy='strict-origin-when-cross-origin';f.allowFullscreen=true;
+    var box=document.createElement('div');box.className='ep-media';box.appendChild(f);
+    a.closest('.ep').classList.add('playing');a.replaceWith(box);
+  });
+});
+</script>
 
 <section class="contact" id="contact" aria-labelledby="contact-h">
   <div class="wrap narrow center">
