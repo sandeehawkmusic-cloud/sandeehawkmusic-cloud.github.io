@@ -1,0 +1,38 @@
+[
+  {
+    "number": 1,
+    "title": "The Oldest Song: Hurrian Hymn No. 6",
+    "kind": "history",
+    "era": "c. 1400 BC",
+    "summary": "About 3,400 years ago, someone in the city of Ugarit (in modern Syria) pressed a hymn to the goddess Nikkal into clay, along with instructions for a singer and a nine-stringed lyre. Nobody agrees how to read the notation, so every reconstruction you hear today is a different guess.",
+    "releaseAt": "2026-10-24T07:45:00-05:00",
+    "youtubeUrl": "https://www.youtube.com/shorts/gToN-dKq_b4",
+    "facebookUrl": "https://www.facebook.com/reel/1630755218502186/",
+    "thumbnail": "/images/weird-side-ep01-oldest-song.jpg",
+    "thumbnailAlt": "Thumbnail: a glowing clay tablet and an ancient lyre, titled The Oldest Song"
+  },
+  {
+    "number": 2,
+    "title": "The Dancing Plague of 1518",
+    "kind": "history",
+    "era": "1518",
+    "summary": "In the summer of 1518, people in Strasbourg started dancing and couldn't stop. The city's \"cure\"? Hire musicians, build a stage, and keep them dancing. Historians still argue about why it happened.",
+    "releaseAt": "2026-10-24T19:17:00-05:00",
+    "youtubeUrl": "https://www.youtube.com/shorts/2k3o8IUyQr8",
+    "facebookUrl": "https://www.facebook.com/reel/1979372586355388/",
+    "thumbnail": "/images/weird-side-ep02-dancing-plague-1518.jpg",
+    "thumbnailAlt": "Thumbnail: a woodcut-style crowd dancing in a medieval Strasbourg street under the cathedral spire"
+  },
+  {
+    "number": 3,
+    "title": "Why Van Halen Banned Brown M&M's",
+    "kind": "singer/band",
+    "era": "1980",
+    "summary": "Van Halen's tour rider really did demand M&M's, with \"absolutely no brown ones.\" David Lee Roth says it was a safety test hidden in the technical pages: if he found a brown M&M backstage, the promoter hadn't read the fine print, so the crew rechecked the whole stage. Skeptics say it was also great publicity.",
+    "releaseAt": "2026-10-26T21:48:00-05:00",
+    "youtubeUrl": null,
+    "facebookUrl": null,
+    "thumbnail": "/images/weird-side-ep03-van-halen-brown-mms.jpg",
+    "thumbnailAlt": "Thumbnail: bowls of colorful candy with the words No Brown M&M's, Why Van Halen really banned them"
+  }
+]

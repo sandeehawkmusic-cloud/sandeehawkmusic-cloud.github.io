@@ -306,9 +306,10 @@
     <h2 id="weird-h">The Weird Side of Music</h2>
     <p class="weird-intro">Short videos about the strangest stories in music history, from ancient clay tablets to modern-day oddities.</p>
 
-    <!-- EPISODES: newest first. To add one, copy an <article class="ep"> block, paste it at the TOP of this list, and edit it.
-         See /workspace/weird-side-of-music/WEBSITE_SYNC.md for the steps. -->
-    <div class="eps">
+    <!-- EPISODES: these static cards are the no-JavaScript fallback. With JavaScript on, weird-side-of-music/episodes.js
+         replaces them with the newest 4 RELEASED episodes from weird-side-of-music/episodes.json.
+         To add an episode, edit episodes.json only. See /workspace/weird-side-of-music/WEBSITE.md. -->
+    <div class="eps" data-episodes data-limit="4">
 
       <!-- EP 2 -->
       <article class="ep" data-ep="2">
@@ -339,23 +340,10 @@
       </article>
 
     </div>
-    <div class="btns center"><a class="btn btn-sunset" href="https://youtube.com/@sandeehawkmusic/shorts" target="_blank" rel="noopener">All episodes on YouTube</a></div>
+    <div class="btns center"><a class="btn btn-primary" href="weird-side-of-music/">See every episode</a><a class="btn btn-sunset" href="https://youtube.com/@sandeehawkmusic/shorts" target="_blank" rel="noopener">All episodes on YouTube</a></div>
   </div>
 </section>
-<script>
-document.querySelectorAll('.ep-media[data-yt]').forEach(function(a){
-  a.addEventListener('click',function(e){
-    e.preventDefault();
-    var f=document.createElement('iframe');
-    f.src='https://www.youtube-nocookie.com/embed/'+a.dataset.yt+'?autoplay=1&rel=0';
-    f.title=a.getAttribute('aria-label').replace(/^Play /,'').replace(/ on YouTube$/,'');
-    f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-    f.referrerPolicy='strict-origin-when-cross-origin';f.allowFullscreen=true;
-    var box=document.createElement('div');box.className='ep-media';box.appendChild(f);
-    a.closest('.ep').classList.add('playing');a.replaceWith(box);
-  });
-});
-</script>
+<script src="weird-side-of-music/episodes.js"></script>
 
 <section class="contact" id="contact" aria-labelledby="contact-h">
   <div class="wrap narrow center">
