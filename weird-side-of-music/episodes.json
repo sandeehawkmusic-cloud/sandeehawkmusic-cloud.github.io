@@ -58,5 +58,17 @@
     "facebookUrl": "https://www.facebook.com/reel/1441060811427767/",
     "thumbnail": "/images/weird-side-ep05-beatles-rooftop.jpg",
     "thumbnailAlt": "Vintage-style view across city rooftops under a grey winter sky, titled The Beatles' Last Gig: The Rooftop Show Police Crashed"
+  },
+  {
+    "number": 6,
+    "title": "The Patron Tchaikovsky Never Met",
+    "kind": "history",
+    "era": "1876-1890",
+    "summary": "In late 1876 the wealthy Russian widow Nadezhda von Meck began writing to Tchaikovsky, and from 1877 she paid him an allowance of 6,000 rubles a year so he could compose full time, on one condition: they would never meet. For about 13 years they traded more than a thousand letters, and he dedicated his Fourth Symphony to her. In 1890 she suddenly ended the allowance, and historians still debate why.",
+    "releaseAt": "2026-11-03T09:00:00-06:00",
+    "youtubeUrl": null,
+    "facebookUrl": null,
+    "thumbnail": "/images/weird-side-ep06-tchaikovsky-von-meck.jpg",
+    "thumbnailAlt": "Vintage-style open wooden chest full of handwritten letters, titled The Patron He Never Met: 1,000+ letters, a pact never to meet"
   }
 ]
