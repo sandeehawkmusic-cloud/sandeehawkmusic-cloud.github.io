@@ -169,3 +169,9 @@ section:not(.hero):not(.latest):not(.watch) .btn:not(.btn-primary):not(.btn-suns
 .weird-page h1{font-size:clamp(2.2rem,6vw,3.2rem);color:var(--leather);letter-spacing:.01em}
 .weird-page h1::after{content:"";display:block;width:64px;height:4px;margin-top:.45em;background:linear-gradient(90deg,var(--sunset),var(--gold));border-radius:2px}
 .nav ul a[aria-current="page"]{color:var(--gold)}
+
+.tribute{background:linear-gradient(180deg,#2a1a10,#1f140d);border-top:4px solid var(--gold);border-bottom:4px solid var(--gold)}
+.tribute img{box-shadow:0 0 0 4px var(--gold),0 12px 30px rgba(0,0,0,.5)}
+.tribute .eyebrow{font-size:.95rem}
+.tribute-note{font-size:1.1rem;color:var(--cream);font-style:italic}
+.tribute-tag{color:var(--gold);font-weight:700;font-size:.85rem;margin:.1rem 0 .3rem}
