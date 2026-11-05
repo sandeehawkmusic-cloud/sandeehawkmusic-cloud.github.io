@@ -57,6 +57,7 @@ section:not(.hero):not(.latest):not(.watch) .btn:not(.btn-primary):not(.btn-suns
 .latest img{border-radius:var(--r);max-width:340px;width:100%;margin-inline:auto;box-shadow:0 12px 30px rgba(0,0,0,.5)}
 .latest .btn:not(.btn-sunset){color:var(--dust)}
 .latest .latest-embed{border:0;border-radius:var(--r);display:block;margin-top:1.4rem;background:#1f140d}
+.latest iframe.video-embed{aspect-ratio:16/9;width:100%;height:auto;min-height:200px}
 
 /* Merch */
 .merch{background:#1f140d;color:var(--dust);padding:2.5rem 0;border-top:4px solid var(--gold)}
