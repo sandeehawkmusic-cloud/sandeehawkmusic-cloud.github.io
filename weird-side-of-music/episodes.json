@@ -102,9 +102,21 @@
     "era": "1800s",
     "summary": "Niccolò Paganini played the violin so astonishingly that rumors claimed he had sold his soul to the devil, and one Vienna listener said he saw the devil guiding his bow. After he died in Nice in 1840, the bishop refused him a church burial, and his embalmed body was moved around for decades before he was finally buried in Parma in 1876.",
     "releaseAt": "2026-11-10T09:00:00-06:00",
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/shorts/Pu0HaZWZ7aA",
     "facebookUrl": "https://www.facebook.com/reel/1875079837177596/",
     "thumbnail": "/images/weird-side-ep09-paganini-devil.jpg",
     "thumbnailAlt": "A violin floating above candle flames in the dark, with smoke curling into horn shapes, under the words \"The Devil's Violinist?\""
+  },
+  {
+    "number": 10,
+    "title": "Music on Bones: Soviet X-Ray Records",
+    "kind": "history",
+    "era": "1940s-1960s",
+    "summary": "In the Soviet Union after World War II, bootleggers copied banned jazz and rock and roll onto used hospital X-ray film, cutting the discs with scissors and burning the center hole with a cigarette. People called them \"bones\" or \"ribs,\" and the makers risked prison.",
+    "releaseAt": "2026-11-11T09:00:00-06:00",
+    "youtubeUrl": null,
+    "facebookUrl": null,
+    "thumbnail": "/images/weird-side-ep10-bone-music.jpg",
+    "thumbnailAlt": "A glowing green X-ray record showing a skull spinning on a turntable, under the words \"Rock and Roll on X-Rays\""
   }
 ]
