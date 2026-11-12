@@ -114,9 +114,21 @@
     "era": "1940s-1960s",
     "summary": "In the Soviet Union after World War II, bootleggers copied banned jazz and rock and roll onto used hospital X-ray film, cutting the discs with scissors and burning the center hole with a cigarette. People called them \"bones\" or \"ribs,\" and the makers risked prison.",
     "releaseAt": "2026-11-11T09:00:00-06:00",
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/shorts/q7_BctVOCLo",
     "facebookUrl": "https://www.facebook.com/reel/1478218987580428/",
     "thumbnail": "/images/weird-side-ep10-bone-music.jpg",
     "thumbnailAlt": "A glowing green X-ray record showing a skull spinning on a turntable, under the words \"Rock and Roll on X-Rays\""
+  },
+  {
+    "number": 11,
+    "title": "The Murder Prince: Carlo Gesualdo",
+    "kind": "singer/band",
+    "era": "1590",
+    "summary": "In Naples in 1590, Carlo Gesualdo, Prince of Venosa, and his men killed his wife and her lover, and a Naples court found he had committed no crime. He retreated to his castle and wrote madrigals with harmonies so strange that nothing quite like them was heard again until the late 1800s.",
+    "releaseAt": "2026-11-12T09:00:00-06:00",
+    "youtubeUrl": null,
+    "facebookUrl": null,
+    "thumbnail": "/images/weird-side-ep11-gesualdo.jpg",
+    "thumbnailAlt": "A dark Renaissance canopy bed with heavy curtains, under the words \"Killer Prince, Eerie Music\""
   }
 ]
